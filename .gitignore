@@ -4,3 +4,11 @@
 # White List
 !Iterator/*.cs
 
+# Adapter pattern
+Adapter/*/obj
+Adapter/*/bin
+Adapter/*/*.csproj
+!Adapter/*
+!Adapter/Sample01/*.cs
+
+

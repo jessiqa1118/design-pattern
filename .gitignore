@@ -5,10 +5,15 @@
 !Iterator/*.cs
 
 # Adapter pattern
-Adapter/*/obj
-Adapter/*/bin
-Adapter/*/*.csproj
 !Adapter/*
-!Adapter/Sample01/*.cs
+Adapter/*/*
+!Adapter/*/*.cs
+!Adapter/*/*.md
+
+# Template Method pattern
+!TemplateMethod/*
+TemplateMethod/*/*
+!TemplateMethod/*/*.cs
+!TemplateMethod/*/*.md
 
 

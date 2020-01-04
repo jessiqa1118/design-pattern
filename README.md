@@ -54,3 +54,16 @@ NuGetからパッケージ "System.Text.Encoding.CodePages" をダウンロー�
 ▽参考リンク  
 [.NET CoreでShift-JISを取り扱う方法](https://blog.hitsujin.jp/entry/2019/01/27/200055)
 
+### パッケージと名前空間
+▽ Java
+```java
+import custom
+```
+
+▽ C#
+```cs
+using Custom;
+```
+
+Javaでいうパッケージは、C#における名前空間と対応づけられる。
+ネーミングルールを考慮し、名前空間の場合は頭文字を大文字にする。
